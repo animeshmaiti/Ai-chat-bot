@@ -6,11 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/matrix': {
+      '/prompt': {
         target: 'http://localhost:8080',  // Your backend server URL
         changeOrigin: true,
         secure: false,   // Disable SSL verification if using HTTP
-        rewrite: (path) => path.replace(/^\/matrix/, '/prompt'),
+        rewrite: (path) => path.replace(/^\/prompt/, '/prompt'),
       },
     },
   },
