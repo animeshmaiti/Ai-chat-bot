@@ -1,0 +1,8 @@
+[submodule "BitNet"]
+	path = BitNet
+	url = https://github.com/animeshmaiti/BitNet
+	brach = dev
+[submodule "backend/BitNet"]
+	path = backend/BitNet
+	url = https://github.com/animeshmaiti/BitNet
+	branch = dev
